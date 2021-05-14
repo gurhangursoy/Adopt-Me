@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write \"src/**/*.{js, jsx}\""
+    "format": "prettier --write \"src/**/*.{js, jsx}\"",
+    "lint": "eslint \"src/**/*.{js, jsx}\" --quiet"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/gurhangursoy/Adopt-Me#readme",
   "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^8.1.0",
+    "parcel": "^1.12.3",
     "prettier": "^2.3.0"
   }
 }
