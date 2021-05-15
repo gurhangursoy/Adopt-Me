@@ -29,7 +29,6 @@ const App = () => {
 
 ReactDOM.render(
   <StrictMode>
-    {' '}
     <App />
   </StrictMode>,
   document.getElementById('root')
